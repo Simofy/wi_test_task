@@ -1,0 +1,16 @@
+.spinner-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #e1e6f033;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-size: 18px;
+  opacity: 1;
+  transition: opacity 0.1s cubic-bezier(0.22, -0.16, 0.29, 0.99);
+}
